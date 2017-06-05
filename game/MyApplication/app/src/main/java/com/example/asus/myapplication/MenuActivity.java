@@ -53,9 +53,9 @@ public class MenuActivity extends AppCompatActivity {
             public boolean onTouch(View v, MotionEvent event) {
                 ImageButton i=(ImageButton)v;
                 if(event.getAction()==MotionEvent.ACTION_DOWN){
-                    i.setImageResource(R.drawable.play2);
+                    i.setImageResource(R.drawable.menu_play_click_after);
                 }else if(event.getAction()==MotionEvent.ACTION_UP){
-                    i.setImageResource(R.drawable.menu_play);
+                    i.setImageResource(R.drawable.menu_play_click_before);
                 }
                 return false;
             }

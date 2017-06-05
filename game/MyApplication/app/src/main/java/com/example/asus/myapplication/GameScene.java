@@ -85,7 +85,7 @@ public class GameScene extends Scene {
         lTime = lCur;
         mainActivity =mActivity;
         //设置显示分数的字体属性
-        font =new Font("fonts/Arial.ttf");
+        font =new Font("fonts/font.ttf");
         font.setFontSize(40);
         Texture textTexture= font.createTexture("SCORE:"+ iScore);
         TextureAtlas textureAtlas=new TextureAtlas();
